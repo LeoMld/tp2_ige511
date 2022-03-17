@@ -2,9 +2,9 @@ require("file-loader?name=[name].[ext]!./index.html");
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { A } from "./views/A";
-import { B } from "./views/B";
-import { App } from "./App";
+import { A } from "./views/A.jsx";
+import { B } from "./views/B.jsx";
+import { App } from "./App.jsx";
 
 const appElement = document.getElementById("app");
 
