@@ -1,0 +1,34 @@
+$grey: lightgrey;
+$lightgrey: rgb(235, 235, 235);
+$darkgrey: rgb(173, 173, 173);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  height: 100%;
+
+  a {
+    color: black;
+    text-decoration: 0;
+    padding: 20px;
+    background-color: $grey;
+  }
+  a:hover {
+    background-color: $darkgrey;
+  }
+}
